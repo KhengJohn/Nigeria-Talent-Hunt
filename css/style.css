@@ -1,0 +1,152 @@
+.hero-section{
+    background-image: url(/img/bg_gradient.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.hero-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 80vh;
+    padding-left: 10%;
+}
+.hero-content-left h1{
+    font-size: 50px;
+    color: #272D4E;
+}
+
+.hero-content-left p{
+    color: #94A2B3;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.register-button{
+    padding: 13px 45px;
+    width: max-content;
+    border: none;
+    color: #FFFFFF;
+    background-color: #3789FF;
+    border-radius: 06px;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+.second-section{
+    margin: 50px auto;
+}
+.second-section h2{
+    color: #272D4E;
+    font-size: 30px;
+    font-weight: 600;
+}
+.second-section p{
+    color: #94A2B3;
+}
+
+.third-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 50px;
+}
+
+.tcard img {
+    width: 100%;
+    border-radius: 14px;
+}
+.tcardii{
+    margin-top: 38px;
+}
+.tcardiii{
+    margin-top: 68px;
+}
+
+.fourth-section{
+    background-image: url(/img/fourthsection.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.fourth-section-contenti {
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+.fourth-section-contenti img{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+}
+
+.fourth-section-contentii {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    width: 60%;
+}
+.fourth-section-contentii img{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+}
+.fourth-content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 100px;
+}
+.fourth-button{
+    padding: 10px 45px;
+    width: max-content;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FFBA49;
+    border-radius: 06px;
+    font-size:medium;
+    font-weight: 600;
+}
+
+@media (max-width: 750px){
+    .hero-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-content-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 80vh;
+        padding-left: 0;
+        width: 90%;
+    }
+    .third-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .tcardii{
+        margin-top: auto;
+    }
+    .tcardiii{
+        margin-top: auto;
+    }
+}
