@@ -64,9 +64,29 @@
     padding: 50px;
 }
 
+.tcard{
+    background-color: #f9f8f8;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.tcard-content{
+    padding: 10px;
+}
+
+.tcard-content p{
+    color: #272D4E;
+    font-weight: 600;
+}
+
+.tcard-content span{
+    color: #94A2B3;
+}
+
 .tcard img {
     width: 100%;
-    border-radius: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .tcardii{
     margin-top: 38px;
@@ -124,6 +144,63 @@
     font-weight: 600;
 }
 
+.fifth-section{
+    background-image: url(/img/fifthsection.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    width: 100%;  
+    position: relative;
+    z-index: -3;
+}
+.fifth-section-heading h2{
+color: #272D4E;
+font-size: 30px;
+font-weight: 600;
+}
+.fifth-section-heading p{
+    color: #94A2B3;
+}
+.fifth-image{
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+    z-index: -2;
+}
+
+.footer{
+    background-color: #3789FF;
+    height: 50vh;
+    padding: 50px;
+    color: #FFFFFF;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-links{
+
+}
+.footer-links span{
+    font-weight: 600;
+}
+.footer-links ul {
+    text-decoration: none;
+}
+.footer-links ul a{
+    text-decoration: none;
+}
+.footer-links ul a li{
+    color: white;
+    list-style: none;
+}
+
+.social-icon{
+    width: 30px;
+    margin: 10px auto;
+}
 @media (max-width: 750px){
     .hero-content{
         display: grid;
